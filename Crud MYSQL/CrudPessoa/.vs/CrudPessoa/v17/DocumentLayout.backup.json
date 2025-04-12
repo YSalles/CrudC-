@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\crudpessoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\estudo\\crud mysql\\crudpessoa\\crudpessoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\CrudPessoa\\Form1.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Form1.cs",
+              "ToolTip": "D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\CrudPessoa\\Form1.cs",
+              "RelativeToolTip": "CrudPessoa\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:12:34.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\CrudPessoa\\Form1.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Form1.cs",
+              "ToolTip": "D:\\Develop\\C#\\Estudo\\Crud MYSQL\\CrudPessoa\\CrudPessoa\\Form1.cs [Design]",
+              "RelativeToolTip": "CrudPessoa\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:39:12.979Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

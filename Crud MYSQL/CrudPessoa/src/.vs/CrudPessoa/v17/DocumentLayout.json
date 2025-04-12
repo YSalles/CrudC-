@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\core\\database\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\core\\database\\conexaodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\view\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\view\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\crudpessoa\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\view\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\crudpessoa\\view\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\view\\frmcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\repository\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\repository\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|d:\\develop\\c#\\conteudo\\crud mysql\\crudpessoa\\src\\crudpessoa\\core\\settings\\configdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C5EA86-4078-45A8-98FB-DF03C2BCEB7E}|CrudPessoa\\CrudPessoa.csproj|solutionrelative:crudpessoa\\core\\settings\\configdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCadastro.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\View\\frmCadastro.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmCadastro.cs",
+              "RelativeToolTip": "CrudPessoa\\View\\frmCadastro.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:00:37.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\View\\frmPrincipal.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmPrincipal.cs",
+              "RelativeToolTip": "CrudPessoa\\View\\frmPrincipal.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAwwIgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:11:05.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PessoaRepository.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Repository\\PessoaRepository.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Repository\\PessoaRepository.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Repository\\PessoaRepository.cs",
+              "RelativeToolTip": "CrudPessoa\\Repository\\PessoaRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwBMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:29:00.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Models\\Pessoa.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Models\\Pessoa.cs",
+              "RelativeToolTip": "CrudPessoa\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:28:23.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Controllers\\PessoaController.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "CrudPessoa\\Controllers\\PessoaController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:28:19.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCadastro.cs [Projeto]",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmCadastro.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\View\\frmCadastro.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmCadastro.cs [Projeto]",
+              "RelativeToolTip": "CrudPessoa\\View\\frmCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:58:00.998Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\View\\frmPrincipal.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\View\\frmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "CrudPessoa\\View\\frmPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T20:02:42.505Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConexaoDB.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Core\\DataBase\\ConexaoDB.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Core\\DataBase\\ConexaoDB.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Core\\DataBase\\ConexaoDB.cs",
+              "RelativeToolTip": "CrudPessoa\\Core\\DataBase\\ConexaoDB.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:28:38.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigDB.cs",
+              "DocumentMoniker": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Core\\Settings\\ConfigDB.cs",
+              "RelativeDocumentMoniker": "CrudPessoa\\Core\\Settings\\ConfigDB.cs",
+              "ToolTip": "D:\\Develop\\C#\\Conteudo\\Crud MYSQL\\CrudPessoa\\src\\CrudPessoa\\Core\\Settings\\ConfigDB.cs",
+              "RelativeToolTip": "CrudPessoa\\Core\\Settings\\ConfigDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:28:45.486Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+﻿using CrudPessoa.Core.DataBase;
+using CrudPessoa.Models;
+using MySql.Data.MySqlClient;
+
+namespace CrudPessoa.Core.Repositories
+{
+    // Classe que gerencia a persistência de dados da entidade 'Pessoa'
+    // Herda de 'ConexaoDB', ou seja, pode usar os métodos e a conexão da classe base
+    public class PessoaRepository : ConexaoDB
+    {
+        // Método para obter todas as pessoas do banco de dados
+        public List<Pessoa> BuscarTodasPessoas()
+        {
+            var lista_pessoas = new List<Pessoa>(); // Cria uma lista vazia para armazenar os resultados
+
+            try
+            {
+                AbrirConexao(); // Abre a conexão com o banco de dados
+
+                var query = "SELECT * FROM Pessoa;"; // Define a consulta SQL para buscar todas as pessoas
+
+                // Cria um comando MySQL, associando a consulta e a conexão herdada da classe base
+                using (var command = new MySqlCommand(query, Connection))
+                {
+                    // Executa a consulta e armazena os resultados no leitor de dados
+                    using (var reader = command.ExecuteReader())
+                    {
+                        // Percorre os resultados retornados pelo banco de dados
+                        while (reader.Read())
+                        {
+                            // Adiciona um novo objeto 'Pessoa' na lista, preenchendo os dados do banco
+                            lista_pessoas.Add(new Pessoa(
+                                id: reader.GetInt32("Id"),
+                                nome: reader.GetString("Nome"),
+                                cpf: reader.GetString("Cpf"),
+                                email: reader.GetString("Email")
+                            ));
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                FecharConexao(); // Fecha a conexão com o banco, garantindo que não fique aberta
+            }
+
+            return lista_pessoas; // Retorna a lista com os dados das pessoas buscadas no banco
+        }
+
+
+
+
+        // Método para adicionar uma nova pessoa no banco de dados
+        public bool CadastrarPessoa(Pessoa nova_pessoa)
+        {
+            try
+            {
+                // Abre a conexão com o banco de dados
+                AbrirConexao();
+
+                // Consulta SQL para inserir os dados no banco
+                string query = "INSERT INTO Pessoa (Nome, Cpf, Email) VALUES (@Nome, @Cpf, @Email);";
+
+                // Cria o comando MySQL para executar a consulta
+                using (var command = new MySqlCommand(query, Connection))
+                {
+                    // Adiciona os parâmetros ao comando para prevenir SQL Injection
+                    command.Parameters.AddWithValue("@Nome", nova_pessoa.Nome);
+                    command.Parameters.AddWithValue("@Cpf", nova_pessoa.Cpf);
+                    command.Parameters.AddWithValue("@Email", nova_pessoa.Email);
+
+                    // Executa a consulta e retorna o número de linhas afetadas
+                    int resultado = command.ExecuteNonQuery();
+
+                    // Retorna true se a inserção foi bem-sucedida (pelo menos uma linha foi afetada)
+                    return resultado > 0;
+                }
+            }
+            catch (MySqlException ex)
+            {
+                // Log de erro ou exibição de mensagem de erro
+                Console.WriteLine($"Erro ao inserir a pessoa: {ex.Message}");
+                return false;
+            }
+            finally
+            {
+                // Fecha a conexão com o banco de dados
+                FecharConexao();
+            }
+        }
+
+        // Método para deletar uma pessoa do banco de dados
+        public bool DeletarPessoa(int id)
+        {
+            try
+            {
+                AbrirConexao();
+
+                var query = "DELETE FROM Pessoa WHERE Id = @Id;";
+                using (var command = new MySqlCommand(query, Connection))
+                {
+                    command.Parameters.AddWithValue("@Id", id);
+
+                    return command.ExecuteNonQuery() > 0;  // Retorna true se deletou com sucesso
+                }
+            }
+            finally
+            {
+                FecharConexao();
+            }
+        }
+
+        // Método para editar pessoa
+        public bool EditarPessoa(Pessoa pessoa)
+        {
+            try
+            {
+                AbrirConexao();
+                var query = "UPDATE Pessoa SET Nome = @Nome, Cpf = @Cpf, Email = @Email WHERE Id = @Id;";
+                using (var command = new MySqlCommand(query, Connection))
+                {
+                    command.Parameters.AddWithValue("@Id", pessoa.Id);
+                    command.Parameters.AddWithValue("@Nome", pessoa.Nome);
+                    command.Parameters.AddWithValue("@Cpf", pessoa.Cpf);
+                    command.Parameters.AddWithValue("@Email", pessoa.Email);
+                    return command.ExecuteNonQuery() > 0; // Retorna true se o update for realizado com sucesso
+                }
+            }
+            finally
+            {
+                FecharConexao();
+            }
+        }
+    }
+}
